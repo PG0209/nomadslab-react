@@ -1,0 +1,116 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .discription .dis-head{
+    color:#58D090; 
+    font-weight: 650;
+  }
+  .dis-body{
+    font-weight: 600;
+  }
+  .video {
+    position: relative;
+    flex: 1;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .outer-circle {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border: 130px solid #ebf7fc;
+    border-radius: 50%;
+    right: 30%;
+    z-index: -1;
+  }
+  .video .collage-border {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebf7fc;
+    border-radius: 50%;
+  }
+  .video .college-video {
+    height: 310px;
+    width: 310px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .collage-img {
+    height: 280px;
+    width: 280px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    object-fit: cover;
+  }
+  .discription {
+    letter-spacing: 1px;
+    flex: 1;
+    height: 400px;
+    padding: 40px 0;
+  }
+  .students{
+    color: #FFBA00;
+  }
+  .courses{
+    color: #FF6476;
+  }
+  .hours{
+    color: #43CB83;
+  }
+  .college-video .fa-circle-play {
+    position: absolute;
+    font-size: 58px;
+    color: #58d090;
+  }
+  .count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .numbers {
+    font-weight: 700;
+  }
+  .titles {
+    font-weight: 700;
+  }
+
+
+
+  /**/
+  @media screen and (max-width: 992px) {
+    .section {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .collage-img {
+      height: 200px;
+      width: 200px;
+    }
+    .video .college-video {
+      height: 240px;
+      width: 240px;
+    }
+    .video .collage-border {
+      height: 280px;
+      width: 280px;
+    }
+  }

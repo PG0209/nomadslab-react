@@ -1,0 +1,286 @@
+.container-fluid {
+    margin-top: 200px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #f9f7f2;
+  }
+  .banners {
+    position: absolute;
+    width: 50%;
+    top: 34%;
+  }
+  .banners p {
+    position: absolute;
+  }
+  
+  .black-l {
+    width: 235px;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+  }
+  .graduation {
+    position: absolute;
+    top: -41px;
+    right: -40px;
+  }
+  .small{
+    font-weight: normal;
+    font-size:medium;
+  }
+  .sub-small{
+      color: #f76c81;
+  }
+  .standing {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+  }
+  .container-fluid .banners p .black-l {
+    font-size: 38px;
+  }
+  #login-box {
+    position: absolute;
+    bottom: -125px;
+    right: 21%;
+    width: 380px;
+    height: 550px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  }
+  
+  .left {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .head-apply {
+    height: 100px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+  }
+  
+  .left input[type="text"],
+  .left input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 320px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+  }
+  
+  .left input[type="submit"] {
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  .down .tacbox {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .apply-btn-call {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .apply-call {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .have-acc {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .hv-acc {
+    text-decoration: solid underline 1px;
+    -webkit-text-decoration: solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+  }
+
+
+
+
+
+
+  /**/
+
+  @media screen and (max-width: 1200px) {
+    .container-fluid {
+      margin-top: 250px;
+    }
+    .container-fluid .banners p .black-l {
+      font-size: 28px;
+    }
+    #login-box {
+      right: 20%;
+    }
+    .standing {
+      top: 125px;
+      right: 12px;
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+  .container-fluid {
+    margin-top: 125px;
+  }
+  .banners {
+    right: 0px;
+  }
+  .graduation {
+    margin-right: 54px;
+    height: 300px;
+    width: 500px;
+  }
+  .container-fluid .banners p {
+    margin-left: 46px;
+  }
+  .container-fluid .banners p .black-l {
+    top: -35px;
+  }
+  #login-box {
+    right: 47%;
+  }
+  .standing {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    margin-top: 100px;
+  }
+  .graduation {
+    margin-right: 113px;
+    height: 200px;
+    width: 400px;
+  }
+  #login-box {
+    width: 330px;
+  }
+  .left input[type="text"],
+  .left input[type="password"] {
+    width: 300px;
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 674px) {
+  .container-fluid {
+    margin-top: -270px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+  }
+  #login-box {
+    left: 7%;
+    height: 535px;
+  }
+
+  .banners {
+    width: 100%;
+    height: 100%;
+    top: 250px;
+  }
+
+  .banners p span .black-l {
+    left: 0%;
+    top: -24%;
+  }
+  .graduation{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .container-fluid {
+    margin-top: -270px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+  }
+  #login-box {
+    height: 535px;
+    width: 240px;
+  }
+  .left {
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .left input[type="text"],
+  .left input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 2px;
+    width: 230px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    transition: 0.2s ease;
+  }
+
+  .banners {
+    width: 100%;
+    height: 100%;
+    top: 250px;
+  }
+  .banners p {
+    right: 25px;
+  }
+  .container-fluid .banners p .black-l {
+    left: 0%;
+    top: -24%;
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 335px) {
+  .tacbox label {
+    font-size: small;
+  }
+  .apply-call h6 {
+    font-size: small;
+  }
+}
